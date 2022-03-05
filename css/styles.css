@@ -1,0 +1,157 @@
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+:root {
+    --main-background-color: #fff;
+    --main-hover-focus-font-color: rgba(33, 150, 243, 1);
+    --button-hover-focus-font-color: rgba(255, 255, 255, 1);
+    --button-hover-focus-back-color: rgba(33, 150, 243, 1);
+    --button-font-color: rgba(33, 33, 33, 1);
+    --button-back-color: rgba(245, 244, 250, 1);
+    --footer-font-color: rgba(255, 255, 255, 0.6);
+    --footer-hover-focus-color: rgba(255, 255, 255, 1);
+
+}
+body {
+    background-color: var(--main-back-color);
+    color: rgba(117, 117, 117, 1);
+    font-family: 'Roboto', sans-serif;
+}
+h2,
+h3 {
+    color: rgba(33, 33, 33, 1);
+    font-weight: 700;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgba(33, 33, 33, 1);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+  
+}
+.span-l {
+    color: var(--main-hover-focus-font-color);
+}
+.studio,
+.portfolio,
+.contacts {
+    color: rgba(33, 33, 33, 1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.studio:hover,
+.studio:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contacts:hover,
+.contacts:focus,
+.mail:hover,
+.mail:focus,
+.fone:hover,
+.fone:focus {
+    color: var(--main-hover-focus-font-color);
+}
+.mail,
+.fone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: rgba(117, 117, 117, 1);
+    margin-right: 50px;
+}
+.hero {
+    width: 1600px;
+    background-color: rgba(47, 48, 58, 1);
+}
+.ferst-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    padding-top: 200px;
+    color: rgba(255, 255, 255, 1);
+} 
+.hero-button {
+    background-color: var(--button-hover-focus-back-color);
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    color: var(--button-hover-focus-font-color);
+    margin-left: 700px;
+    margin-bottom: 200px;
+}
+.hero-button:hover,
+.hero-button:focus {
+    cursor: pointer;
+}
+.peculiar-header {
+    font-size: 14px;
+    line-height: 1.14;
+}
+.peculiar-discribtion {
+    font-size: 14px;
+    line-height: 1.71;
+    width: 270px;
+}
+.what-header {
+    font-size: 36px;
+    line-height: 1.17;
+}
+.our-comand {
+    width: 1600px;
+    background-color: var(--button-back-color);
+}
+.name {
+    color: var(--button-font-color) ; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    background-color: #fff;
+    width: 270px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.profesion {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    background-color: #fff;
+    width: 270px;
+    margin-top: 0;
+}
+.footer {
+    width: 1600px;
+    background-color: rgba(47, 48, 58, 1);
+}
+.span-f {
+    color: var(--button-hover-focus-font-color);
+}
+.street,
+.footer-mail,
+.footer-fone {
+    color: var(--footer-font-color);
+    font-size: 14px;
+    line-height: 1.71;
+}
+.street:hover,
+.street:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-fone:hover,
+.footer-fone:focus {
+    color: var(--footer-hover-focus-color);
+    cursor: pointer;
+}
