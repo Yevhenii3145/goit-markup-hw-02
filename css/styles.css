@@ -3,12 +3,13 @@
 font-family: 'Roboto', sans-serif; */
 
 :root {
-    --main-background-color: #fff;
+    --main-background-color: rgba(255, 255, 255, 1);
     --main-hover-focus-font-color: rgba(33, 150, 243, 1);
     --button-hover-focus-font-color: rgba(255, 255, 255, 1);
     --button-hover-focus-back-color: rgba(33, 150, 243, 1);
     --button-font-color: rgba(33, 33, 33, 1);
     --button-back-color: rgba(245, 244, 250, 1);
+    --another-back-color: rgba(245, 244, 250, 1);
     --footer-font-color: rgba(255, 255, 255, 0.6);
     --footer-hover-focus-color: rgba(255, 255, 255, 1);
 
@@ -69,7 +70,7 @@ a {
     margin-right: 50px;
 }
 .hero {
-    width: 1600px;
+    max-width: 1600px;
     background-color: rgba(47, 48, 58, 1);
 }
 .ferst-header {
@@ -77,13 +78,14 @@ a {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    padding-top: 200px;
     color: rgba(255, 255, 255, 1);
+    padding-top: 200px;
 } 
 .hero-button {
     background-color: var(--button-hover-focus-back-color);
     border-radius: 4px;
 
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -110,8 +112,8 @@ a {
     line-height: 1.17;
 }
 .our-comand {
-    width: 1600px;
-    background-color: var(--button-back-color);
+    max-width: 1600px;
+    background-color: var(--another-back-color);
 }
 .name {
     color: var(--button-font-color) ; 
@@ -119,7 +121,7 @@ a {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--main-background-color);
     width: 270px;
     margin-top: 0;
     margin-bottom: 0;
@@ -128,7 +130,7 @@ a {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    background-color: #fff;
+    background-color: var(--main-background-color);
     width: 270px;
     margin-top: 0;
 }
@@ -154,4 +156,47 @@ a {
 .footer-fone:focus {
     color: var(--footer-hover-focus-color);
     cursor: pointer;
+}
+.desapear {
+    color: var(--main-background-color);
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.btn-all,
+.btn-veb,
+.btn-applic,
+.btn-desine,
+.btn-marcet {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--button-font-color);
+    background-color: var(--button-back-color);
+    border-color: #F5F4FA;
+    border-radius: 4px;
+}
+.btn-all:hover,
+.btn-all:focus,
+.btn-veb:hover,
+.btn-veb:focus,
+.btn-applic:hover,
+.btn-applic:focus,
+.btn-desine:hover,
+.btn-desine:focus,
+.btn-marcet:hover, 
+.btn-marcet:focus {
+    background-color: var(--button-hover-focus-back-color);
+    color: var(--button-hover-focus-font-color);
+    cursor: pointer;
+} 
+.header-work-example {
+    font-size: 18px;
+    line-height: 2;
+}
+.work-example-discr {
+    font-size: 16px;
+    line-height: 1.88;
 }
