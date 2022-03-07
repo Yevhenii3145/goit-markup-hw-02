@@ -3,13 +3,13 @@
 font-family: 'Roboto', sans-serif; */
 
 :root {
-    --main-background-color: rgba(255, 255, 255, 1);
+    --main-back-color: rgba(255, 255, 255, 1);
     --main-hover-focus-font-color: rgba(33, 150, 243, 1);
-    --button-hover-focus-font-color: rgba(255, 255, 255, 1);
     --button-hover-focus-back-color: rgba(33, 150, 243, 1);
+    --button-hover-focus-font-color: rgba(255, 255, 255, 1);
+    --another-back-color: rgba(245, 244, 250, 1);
     --button-font-color: rgba(33, 33, 33, 1);
     --button-back-color: rgba(245, 244, 250, 1);
-    --another-back-color: rgba(245, 244, 250, 1);
     --footer-font-color: rgba(255, 255, 255, 0.6);
     --footer-hover-focus-color: rgba(255, 255, 255, 1);
 
@@ -135,7 +135,7 @@ a {
     margin-top: 0;
 }
 .footer {
-    width: 1600px;
+    max-width: 1600px;
     background-color: rgba(47, 48, 58, 1);
 }
 .span-f {
