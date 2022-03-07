@@ -62,6 +62,9 @@ a {
 .fone:focus {
     color: var(--main-hover-focus-font-color);
 }
+.studio-activ {
+    color: var(--main-hover-focus-font-color)
+}
 .mail,
 .fone {
     font-weight: 500;
@@ -169,6 +172,10 @@ a {
 .footer-fone:focus {
     color: var(--footer-hover-focus-color);
     cursor: pointer;
+}
+/* Верхняя линия портфолио */
+.portfolio-activ {
+    color: var(--main-hover-focus-font-color);
 }
 /* Радиокнопки */
 .btn-all,
