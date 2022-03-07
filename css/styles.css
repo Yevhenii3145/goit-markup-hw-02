@@ -31,6 +31,7 @@ a {
     text-decoration: none;
     color: rgba(33, 33, 33, 1);
 }
+/* Верхняя линия */
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -69,6 +70,7 @@ a {
     color: rgba(117, 117, 117, 1);
     margin-right: 50px;
 }
+/* Шапка */
 .hero {
     max-width: 1600px;
     background-color: rgba(47, 48, 58, 1);
@@ -98,6 +100,13 @@ a {
 .hero-button:focus {
     cursor: pointer;
 }
+/* Особенности */
+.desapear {
+    color: var(--main-back-color);
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
 .peculiar-header {
     font-size: 14px;
     line-height: 1.14;
@@ -107,10 +116,12 @@ a {
     line-height: 1.71;
     width: 270px;
 }
+/* Чем мы занимаемся */
 .what-header {
     font-size: 36px;
     line-height: 1.17;
 }
+/* Наша команда */
 .our-comand {
     max-width: 1600px;
     background-color: var(--another-back-color);
@@ -121,7 +132,7 @@ a {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    background-color: var(--main-background-color);
+    background-color: var(--main-back-color);
     width: 270px;
     margin-top: 0;
     margin-bottom: 0;
@@ -130,10 +141,11 @@ a {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    background-color: var(--main-background-color);
+    background-color: var(--main-back-color);
     width: 270px;
     margin-top: 0;
 }
+/* Подвал */
 .footer {
     max-width: 1600px;
     background-color: rgba(47, 48, 58, 1);
@@ -157,12 +169,7 @@ a {
     color: var(--footer-hover-focus-color);
     cursor: pointer;
 }
-.desapear {
-    color: var(--main-background-color);
-    line-height: 0;
-    margin-bottom: 0;
-    padding: 0;
-}
+/* Радиокнопки */
 .btn-all,
 .btn-veb,
 .btn-applic,
